@@ -7,7 +7,7 @@
 int createSocket(){
         int sock=socket(AF_INET, SOCK_STREAM, 0);
         //if(sock)
-        //std::cout <<  " fd " << sock << std::endl;
+        std::cout <<__FILE__<<":"<<__LINE__<<std::endl;
         //else
         //std::cout << "creation socket error" << std::endl;
         return sock;
